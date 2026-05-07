@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de gastos</title>
+    <link rel="stylesheet" href="style.css">
+
+ 
+</head>
+<body>
+    <header>
+       <H1>CONTROLE FINANCEIRO 🏦</H1>
+
+    </header>
+
+    <section>
+        <div>
+           <p>  Saldo atual :  <span id ="saldo">0</span> </p>
+            <p>Entradas :  <span id = "Entradas">0</span> </p>
+            <p>Saídas :  <span id = "Saidas">0</span> </p>
+            <hr>
+           <p>  Anote Uma Nova transação Abaixo! </p>
+           <hr>
+           <p>Descrição: <input type="text" name="" id="text1"></p>
+           <p>Valor : <input type="number" name="val" id="val1"></p>
+           <p>Tipo : <input type="radio" name="Tipo" id="entr1"> Entrada <input type="radio" name="Tipo" id="said1"> Saída</p> 
+          
+           <p>Categoria: 
+            <select id ="categoria"> 
+                <option value="">Selecione</option>
+            <optgroup label="Entradas">
+               <option value="salario">Salario</option>
+               <option value="Freelancer">Freelancer</option>
+
+            </optgroup>
+            <optgroup label="Saidas">
+                <option value="alimentação">Alimentação</option>
+                <option value="transporte">Transporte</option>
+                <option value="lazer">Lazer</option>
+                <option value="contas fixas">Contas Fixas</option>
+
+            </optgroup>
+            </select>
+           </p>  
+           <p class="botao">
+            <input type="button" value="Adicionar" onclick="adicionar()">
+        </p> 
+        <p><hr></p>
+            <hr>
+            Historico de Transações 💵
+            <hr>
+        
+        </div> 
+
+        <div id = "res">
+
+
+        </div>
+
+
+    </section>
+
+    <footer>
+        <p>&copy; xspaulox</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
