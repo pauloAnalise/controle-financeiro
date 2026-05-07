@@ -5,8 +5,8 @@ Meu primeiro projeto.
 Projeto simples de controle de financeiro desenvolvido com HTML, CSS e JavaScript.
 
 📌 Funcionalidades
-- Adicionar as entradas
-- Adicionar as saídas
+- Adicionar  entradas
+- Adicionar saídas
 - Atualização automática do saldo
 - Histórico de transações
 - Categorias financeiras
